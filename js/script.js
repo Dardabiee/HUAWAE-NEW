@@ -30,16 +30,16 @@ gsap.to('.bar',1.5,{
      stagger:{
           amount:0.5
      },
-     ease:'power4.inOut',
+     ease:'bounce.in',
 });
 gsap.to('.count', 0.25, {
-    delay: 1,
+    delay: 4,
     opacity: 0,
     className: 'animate-bar-out'
 });
 
 gsap.to('.bar', 1, {
-    delay: 1.5,
+    delay: 5,
     height: 0,
     stagger: {
         amount: 0.5

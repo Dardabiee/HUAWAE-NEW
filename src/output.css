@@ -686,11 +686,6 @@ video {
   background-color: rgb(38 38 38 / var(--tw-bg-opacity));
 }
 
-.bg-white{
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .object-cover{
   -o-object-fit: cover;
      object-fit: cover;
@@ -982,7 +977,7 @@ img{
   height: 100%;
   top: 100%;
   left: 0;
-  z-index: 2;
+  z-index: -1;
 }
 
 .header > div{
@@ -1134,7 +1129,7 @@ html {
 .bar{
   width: 10vw;
   height: 105vh;
-  background: rgb(33, 33, 33);
+  background-color: rgb(255, 255, 255);
 }
 
 .count{
